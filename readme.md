@@ -16,6 +16,8 @@ Ex: git clone "https://github.com/IllyaDesigns/CheckIn.git" /MyProject
 Using terminal, locate the directory where the clone was made and type the command:
 composer install
 
+Dev:
+
 To view the website from a local machine enter the command:
 php artisan serve
-This will serve the website from a local machine. To view enter 'localmachine:8000' as the default url into your browser.
+This will serve the website from a local machine. To view enter 'localmachine:8000' as the default url into your browser. 
