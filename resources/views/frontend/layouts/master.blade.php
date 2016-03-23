@@ -24,6 +24,7 @@
     <body id="app-layout">
 
         @include('frontend.includes.nav')
+        @yield('content-nc')
 
         <div class="container">
             @include('includes.partials.messages')

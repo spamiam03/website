@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
 
@@ -21,7 +21,6 @@
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
                 <li>{!! link_to_route('frontend.index', trans('navs.frontend.home')) !!}</li>
-                <li>{!! link_to_route('frontend.macros', trans('navs.frontend.macros')) !!}</li>
             </ul>
 
             <!-- Right Side Of Navbar -->

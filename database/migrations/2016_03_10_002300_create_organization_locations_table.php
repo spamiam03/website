@@ -14,7 +14,7 @@ class CreateOrganizationLocationsTable extends Migration
     {
         Schema::create('organization_locations', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
+            $table->unsignedInteger('organization_id');
             $table->string('title');
             $table->string('address1');
             $table->string('address2');
@@ -23,6 +23,7 @@ class CreateOrganizationLocationsTable extends Migration
             $table->string('address_zip');
             $table->string('address_phone');
             $table->string('address_hours');
+            $table->timestamps();
 
         });
     }
