@@ -75,5 +75,5 @@ elixir(function(mix) {
     /**
       * Apply version control
       */
-     .version(["public/css/frontend.css", "public/js/frontend.js", "public/css/backend.css", "public/js/backend.js"]);
+     .version(["public/css/frontend.css", "public/js/frontend.js", "public/css/backend.css", "public/js/backend.js"])
 });

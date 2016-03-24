@@ -7827,6 +7827,19 @@ button.close {
 /**
  * Frontend Styles Start Here
  */
+.image-home {
+  background-image: url("/images/homepage.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 780px; }
+
+.jumbo-top-padding {
+  padding-top: 320px; }
+
+.black-transparent {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.5); }
 
 body.stop-scrolling {
   height: 100%;

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend\User;
 
 use App\Http\Controllers\Controller;
+use App\Models\Organization;
 use App\Repositories\Frontend\User\UserContract;
 use App\Http\Requests\Frontend\User\UpdateProfileRequest;
 
@@ -17,6 +18,7 @@ class ProfileController extends Controller
      */
     public function edit()
     {
+        $org = Organization::find(1);
         return view('frontend.user.profile.edit')
             ->withUser(access()->user());
     }
